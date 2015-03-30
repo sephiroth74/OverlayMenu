@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Overlay Menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="waiting_for_selection">Touch the Image to start..</string>
+</resources>

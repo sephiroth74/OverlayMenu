@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OverMenuViewDefaultStyle">
+        <item name="overmenu_activateOnLongPress">false</item>
+        <item name="overmenu_menuStyle">@style/OverMenuLayoutDefaultStyle</item>
+        <item name="android:inAnimation">@anim/overmenu_fade_in</item>
+        <item name="android:outAnimation">@anim/overmenu_fade_out</item>
+    </style>
+
+    <style name="OverMenuLayoutDefaultStyle">
+        <item name="android:background">@drawable/overmenu_default_background</item>
+        <item name="overmenu_textPaddingHorizontal">8dip</item>
+        <item name="overmenu_textGravity">center</item>
+        <item name="overmenu_animateItems">true</item>
+        <item name="android:verticalGap">3dip</item>
+        <item name="android:paddingLeft">4dip</item>
+        <item name="android:paddingRight">4dip</item>
+        <item name="android:paddingTop">6dip</item>
+        <item name="android:paddingBottom">6dip</item>
+        <item name="android:inAnimation">@anim/overmenu_textswitcher_in</item>
+        <item name="android:outAnimation">@anim/overmenu_textswitcher_out</item>
+        <item name="overmenu_textAppearance">@style/OverMenuItemTextAppearance</item>
+        <item name="overmenu_selectedTextAppearance">@style/OverMenuItemTextAppearance</item>
+        <item name="overmenu_selectedTextBackground">@drawable/overmenu_selectedtext_background</item>
+    </style>
+
+    <style name="OverMenuItemTextAppearance" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textColor">#aaffffff</item>
+    </style>
+</resources>

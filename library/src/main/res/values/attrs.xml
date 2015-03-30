@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OverMenuView">
+        <!-- menu will activate using a long press instead of the simple touch -->
+        <attr name="overmenu_activateOnLongPress" format="boolean" />
+        <!-- style for the overlay menu -->
+        <attr name="overmenu_menuStyle" format="reference" />
+        <!-- initial entries -->
+        <attr name="android:entries" />
+        <!-- overlay menu in animation -->
+        <attr name="android:inAnimation" />
+        <!-- overlay menu out animation -->
+        <attr name="android:outAnimation" />
+        <!-- if not null, center the overlay menu to the passed view -->
+        <attr name="overmenu_centerInView" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="OverMenuLayout">
+        <!-- background for the overlay menu -->
+        <attr name="android:background" />
+        <!-- overlay menu padding -->
+        <attr name="android:padding" />
+        <attr name="android:paddingLeft" />
+        <attr name="android:paddingRight" />
+        <attr name="android:paddingTop" />
+        <attr name="android:paddingBottom" />
+        <!-- vertical gap between items -->
+        <attr name="android:verticalGap" />
+        <!-- default text appearance -->
+        <attr name="overmenu_textAppearance" format="reference" />
+        <!-- selected text appearance -->
+        <attr name="overmenu_selectedTextAppearance" format="reference" />
+        <!-- selected text background -->
+        <attr name="overmenu_selectedTextBackground" format="reference" />
+        <!-- text gravity -->
+        <attr name="overmenu_textGravity" />
+        <!-- left and right padding for the textview entries -->
+        <attr name="overmenu_textPaddingHorizontal" format="dimension" />
+        <!-- initial position -->
+        <attr name="overmenu_selectedPosition" format="integer" />
+        <!-- animate items on selection change -->
+        <attr name="overmenu_animateItems" format="boolean" />
+        <!-- selected text in animation -->
+        <attr name="android:inAnimation" />
+        <!-- selected text out animation -->
+        <attr name="android:outAnimation" />
+    </declare-styleable>
+
+    <attr name="overmenu_textGravity" format="enum">
+        <enum name="left" value="3" />
+        <enum name="right" value="5" />
+        <enum name="center" value="17" />
+    </attr>
+</resources>

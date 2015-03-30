@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="overmenuEntries">
+        <item>First Item</item>
+        <item>Second Item</item>
+        <item>Third Item</item>
+        <item>Fourth Item</item>
+        <item>Fifth Item</item>
+        <item>Sixth Item</item>
+        <item>Seventh Item</item>
+    </string-array>
+</resources>
