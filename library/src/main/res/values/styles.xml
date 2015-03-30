@@ -24,7 +24,8 @@
         <item name="overmenu_selectedTextBackground">@drawable/overmenu_selectedtext_background</item>
     </style>
 
-    <style name="OverMenuItemTextAppearance" parent="Base.TextAppearance.AppCompat">
+    <style name="OverMenuItemTextAppearance" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
         <item name="android:textColor">#aaffffff</item>
     </style>
 </resources>

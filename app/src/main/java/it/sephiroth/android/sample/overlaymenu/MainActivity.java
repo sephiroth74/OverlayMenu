@@ -56,16 +56,8 @@ public class MainActivity extends ActionBarActivity
         textView.setText(overMenuView.getEntries()[position]);
     }
 
-    static boolean firsTime = true;
-
     @Override
     public void onVisibilityChanged(final View view, final boolean visible) {
         Log.d(TAG, "onVisibilityChanged: " + view + ", " + visible);
-
-        if (!visible && firsTime) {
-            //((OverMenuView) view).setEntries(new CharSequence[]{"Uno", "Due", "Tre", "Quattro", "Cinque"});
-            //((OverMenuView) view).setDefaultPosition(2);
-            firsTime = false;
-        }
     }
 }
